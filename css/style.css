@@ -1,4 +1,3 @@
-/* Reset */
 * {
     padding: 0;
     margin: 0;
@@ -6,19 +5,19 @@
     box-sizing: border-box;
   }
   
-  /* Variables */
   :root {
-    --main-color: #54B689;
+    --main-color: #9993CF;
     --main-text-color: #FFF;
     --border-color: #999;
-    --bio-bg-color: #1E2A3A;
+    --bio-bg-color: #1B263B;
     --bio-border-color: #293544;
-    --about-bg-color: #111821;
+    --about-bg-color: #0D1B2A;
   }
   
   /* General */
   .highlight {
     color: var(--main-color);
+    font-weight: bold;
   }
   
   /* Containers */
@@ -81,8 +80,9 @@
   #social-container li a {
     color: var(--main-color);
     font-size: 30px;
+    transition: all 0.5s;
   }
-  
+
   #email-container {
     display: flex;
     justify-content: center;
@@ -119,7 +119,7 @@
   }
   
   .description {
-    max-width: 75%;
+    max-width: 80%;
     margin-bottom: 10px;
   }
   
