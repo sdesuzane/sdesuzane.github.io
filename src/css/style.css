@@ -111,11 +111,13 @@ section {
     line-height: .3;
     text-align: end;
     width: 76.5%;
+    margin-bottom: 110px;
 }
 
 .home-content p {
     font-size: 1.8rem;
     font-weight: 400;
+    margin-bottom: 25px;
 }
 
 .home-content .social-media a {
@@ -308,7 +310,7 @@ section {
     position: relative;
     bottom: 44vh;
     /* bottom alterado de 0 para 5.5 */
-    right: 70px;
+    right: 50px;
     pointer-events: none;
     max-width: 445px;
     max-height: 90vh;
